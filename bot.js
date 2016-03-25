@@ -29,18 +29,7 @@ function postMessage() {
     'it has to be coherent',
     'ughhhh',
     'DO IT',
-    'YEET',
-    'smh',
-    'ITS LIT',
-    'NO CHILL',
-    'literally no chill',
-    'DOWN',
-    '~dabs~',
-    '~open shak~'
-    'I feel 4 u',
-    ':(',
-    'can I come to your special d?',
-    'lmao'
+    'YEET'
   ];  
 
   botResponse = responseArray[Math.floor(Math.random()*responseArray.length)];
