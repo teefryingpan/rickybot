@@ -21,13 +21,11 @@ function respond() {
 function postMessage() {
   var botResponse, options, body, botReq;
   var responseArray = [
-    'Yeet',
     'Ralph Lauren Polo',
     'donuts tho',
     '~brisket tho~',
     'at least its not a white condiment',
     'it has to be coherent',
-    'ughhhh',
     'DO IT',
     'YEET',
     'smh',
@@ -37,9 +35,6 @@ function postMessage() {
     'DOWN',
     '~dabs~',
     '~open shak~'
-    'I feel 4 u',
-    'can I come to your special d?',
-    'lmao'
   ];  
 
   botResponse = responseArray[Math.floor(Math.random()*responseArray.length)];
