@@ -77,7 +77,11 @@ function generateResponse() {
     'if ur real',
     'ughhhh',
     'can I come to your special d?',
-    'lmao'
+    'lmao',
+    'Im kinda into it',
+    'ITS YOUR BOI',
+    'you guys are brutal af',
+    'OPEN SHAK RN'
   ];  
   return responseArray[Math.floor(Math.random()*responseArray.length)];
 }
