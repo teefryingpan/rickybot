@@ -81,7 +81,9 @@ function generateResponse() {
     'Im kinda into it',
     'ITS YOUR BOI',
     'you guys are brutal af',
-    'OPEN SHAK RN'
+    'OPEN SHAK RN',
+    '~dabs~',
+    '~dabs~'
   ];  
   return responseArray[Math.floor(Math.random()*responseArray.length)];
 }
