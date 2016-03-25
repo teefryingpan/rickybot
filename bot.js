@@ -22,7 +22,7 @@ function postMessage() {
   var botResponse, options, body, botReq;
   var responseArray = [
     'Ralph Lauren Polo',
-    'donuts tho',
+    '~donuts tho~',
     '~brisket tho~',
     'at least its not a white condiment',
     'it has to be coherent',
@@ -31,7 +31,6 @@ function postMessage() {
     'smh',
     'ITS LIT',
     'NO CHILL',
-    'literally no chill',
     'DOWN',
     '~dabs~',
     '~open shak~'
