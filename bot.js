@@ -20,7 +20,19 @@ function respond() {
 
 function postMessage() {
   var botResponse, options, body, botReq;
-
+  var responseArray = [
+    'Yeet',
+    'Ralph Lauren Polo',
+    'Donuts tho',
+    '~brisket tho~',
+    'at least its not a white condiment',
+    'it has to be coherent',
+    'ughhhh',
+    'DO IT',
+    'YEET',
+    'smh'
+  ];  
+  var responseNum = Math.floor(Math.random()*textArray.length);
   botResponse = 'I love turtles';
 
   options = {
