@@ -33,7 +33,13 @@ function postMessage() {
     'NO CHILL',
     'DOWN',
     '~dabs~',
-    '~open shak~'
+    '~open shak~',
+    'anyone want to split an uber?',
+    'Cardigans is life',
+    'Does anyone have a calculator I can borrow? I have a midterm in twenty minutes.',
+    'GUYS I MADE IT',
+    'I love spoonman, spoony spoony spoonman',
+    'if ur real'
   ];  
 
   botResponse = responseArray[Math.floor(Math.random()*responseArray.length)];
