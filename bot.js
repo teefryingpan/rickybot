@@ -39,7 +39,10 @@ function postMessage() {
     'Does anyone have a calculator I can borrow? I have a midterm in twenty minutes.',
     'GUYS I MADE IT',
     'I love spoonman, spoony spoony spoonman',
-    'if ur real'
+    'if ur real',
+    'ughhhh',
+    'can I come to your special d?'
+    'lmao'
   ];  
 
   botResponse = responseArray[Math.floor(Math.random()*responseArray.length)];
