@@ -45,8 +45,8 @@ function postMessage() {
     'lmao'
   ];  
 
-  botResponse = responseArray[Math.floor(Math.random()*responseArray.length)];
-
+  //botResponse = responseArray[Math.floor(Math.random()*responseArray.length)];
+  botResponse = 'Does anyone have a calculator I can borrow? I have a midterm in twenty minutes.'
   options = {
     hostname: 'api.groupme.com',
     path: '/v3/bots/post',
