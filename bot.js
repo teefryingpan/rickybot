@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /^\/cool guy$/;
+      botRegex = /^\@DoxBot$/;
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
@@ -23,14 +23,18 @@ function postMessage() {
   var responseArray = [
     'Yeet',
     'Ralph Lauren Polo',
-    'Donuts tho',
+    'donuts tho',
     '~brisket tho~',
     'at least its not a white condiment',
     'it has to be coherent',
     'ughhhh',
     'DO IT',
     'YEET',
-    'smh'
+    'smh',
+    'ITS LIT',
+    'NO CHILL',
+    ''
+
   ];  
 
   botResponse = responseArray[Math.floor(Math.random()*responseArray.length)];
