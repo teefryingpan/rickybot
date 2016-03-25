@@ -32,7 +32,8 @@ function postMessage() {
     'YEET',
     'smh'
   ];  
-  botResponse = responseArray[2];
+
+  botResponse = responseArray[Math.floor(Math.random()*responseArray.length)];
 
   options = {
     hostname: 'api.groupme.com',
