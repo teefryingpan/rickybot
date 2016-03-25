@@ -54,6 +54,7 @@ function postMessage() {
 }
 
 function generateResponse() {
+  console.log('generating response');
   var responseArray = [
     'Ralph Lauren Polo',
     '~donuts tho~',
@@ -75,7 +76,7 @@ function generateResponse() {
     'I love spoonman, spoony spoony spoonman',
     'if ur real',
     'ughhhh',
-    'can I come to your special d?'
+    'can I come to your special d?',
     'lmao'
   ];  
   return responseArray[Math.floor(Math.random()*responseArray.length)];
