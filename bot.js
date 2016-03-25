@@ -32,7 +32,6 @@ function postMessage() {
     'YEET',
     'smh'
   ];  
-  var responseNum = Math.floor(Math.random()*textArray.length);
   botResponse = 'I love turtles';
 
   options = {
