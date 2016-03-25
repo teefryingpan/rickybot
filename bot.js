@@ -32,7 +32,7 @@ function postMessage() {
     'YEET',
     'smh'
   ];  
-  botResponse = 'I love turtles';
+  botResponse = responseArray[2];
 
   options = {
     hostname: 'api.groupme.com',
