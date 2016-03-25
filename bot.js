@@ -20,31 +20,7 @@ function respond() {
 
 function postMessage() {
   var botResponse, options, body, botReq;
-  var responseArray = [
-    'Ralph Lauren Polo',
-    '~donuts tho~',
-    '~brisket tho~',
-    'at least its not a white condiment',
-    'it has to be coherent',
-    'DO IT',
-    'YEET',
-    'smh',
-    'ITS LIT',
-    'NO CHILL',
-    'DOWN',
-    '~dabs~',
-    '~open shak~',
-    'anyone want to split an uber?',
-    'Cardigans is life',
-    'Does anyone have a calculator I can borrow? I have a midterm in twenty minutes.',
-    'GUYS I MADE IT',
-    'I love spoonman, spoony spoony spoonman',
-    'if ur real',
-    'ughhhh',
-    'can I come to your special d?'
-    'lmao'
-  ];  
-
+  
   //botResponse = responseArray[Math.floor(Math.random()*responseArray.length)];
   botResponse = 'Does anyone have a calculator I can borrow? I have a midterm in twenty minutes.'
   options = {
