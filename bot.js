@@ -59,7 +59,7 @@ function generateResponse() {
     'Wine & Cheese is Wednesday',
     'Brad and I are married',
     'I dont remember. I just know Brad and I made out.',
-    'I'm old,
+    'Im old',
     'Kristeeeeeeeeeeeeeeeeeeeeeeeeeeen',
     '*makes cat noise*',
     'It was Dans fault he fell out of the tree',
