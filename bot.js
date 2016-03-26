@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /[Dd]oxbot/;
+      botRegex = /[Dd]alebot/;
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
@@ -56,35 +56,24 @@ function postMessage() {
 function generateResponse() {
   console.log('generating response');
   var responseArray = [
-    'Ralph Lauren Polo',
-    '~donuts tho~',
-    '~brisket tho~',
-    'at least its not a white condiment',
-    'first rehearsal has to be coherent',
-    'DO IT',
-    'YEET YEET YEET',
-    'ITS LIT',
-    'NO CHILL',
-    'DOWN',
-    '~dabs~',
-    '~~open shak now ats!~~',
-    'anyone want to split an uber to staph retreat?',
-    'Cardigans are life',
-    'Does anyone have a calculator I can borrow? I have a midterm in twenty minutes.',
-    'GUYS I MADE IT',
-    'I love spoonman, putting it back in the folder is a great idea',
-    'youll do it if ur real',
-    'ughhhh',
-    'can I come to your special d?',
-    'I cant go, I have a special d',
-    'lmao',
-    'Im kinda into it',
-    'ITS YOUR BOI',
-    'you guys are brutal af',
-    'OPEN SHAK RN',
-    '~slidin into the DMs~',
-    '1-800-SEXLINEBLING',
-    
+    'This is shitty beer',
+    'is it still worth going?',
+    'sorry Im having sex with my girlfriend',
+    'yo where are the bonz',
+    'berkeley is a real college town',
+    'K',
+    'You all failed me',
+    'Somebody bring me a bone for the rally in the morning pls',
+    'Hurry up bonz, you're so slow',
+    'Come on, you know me better than that',
+    'dafuq?',
+    'Where is this? Can I come?',
+    'fucking tanicia',
+    'Everyone but calrpicz',
+    'boooooo',
+    'uhhhhh',
+    'Sanders definitely still has a chance',
+    'my girlfriend Kiely goes to Cal',
   ];  
   return responseArray[Math.floor(Math.random()*responseArray.length)];
 }
