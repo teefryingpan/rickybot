@@ -82,7 +82,9 @@ function generateResponse() {
     'ITS YOUR BOI',
     'you guys are brutal af',
     'OPEN SHAK RN',
-    'AYBEEE'
+    '~slidin into the DMs~',
+    '1-800-SEXLINEBLING',
+    
   ];  
   return responseArray[Math.floor(Math.random()*responseArray.length)];
 }
