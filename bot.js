@@ -64,7 +64,7 @@ function generateResponse() {
     'K',
     'You all failed me',
     'Somebody bring me a bone for the rally in the morning pls',
-    'Hurry up bonz, you're so slow',
+    'Hurry up bonz, youre so slow',
     'Come on, you know me better than that',
     'dafuq?',
     'Where is this? Can I come?',
@@ -74,6 +74,7 @@ function generateResponse() {
     'uhhhhh',
     'Sanders definitely still has a chance',
     'my girlfriend Kiely goes to Cal',
+    'Sippy are you kidding me?',
     
   ];  
   return responseArray[Math.floor(Math.random()*responseArray.length)];
