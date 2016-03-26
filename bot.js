@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /[Dd]alebot/;
+      botRegex = /[Rr]ickybot/;
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
@@ -56,26 +56,33 @@ function postMessage() {
 function generateResponse() {
   console.log('generating response');
   var responseArray = [
-    'This is shitty beer',
-    'is it still worth going?',
-    'sorry Im having sex with my girlfriend',
-    'yo where are the bonz',
-    'berkeley is a real college town',
-    'K',
-    'You all failed me',
-    'Somebody bring me a bone for the rally in the morning pls',
-    'Hurry up bonz, youre so slow',
-    'Come on, you know me better than that',
-    'dafuq?',
-    'Where is this? Can I come?',
-    'fucking tanicia',
-    'Everyone but calrpicz',
-    'boooooo',
-    'uhhhhh',
-    'Sanders definitely still has a chance',
-    'my girlfriend Kiely goes to Cal',
-    'Sippy are you kidding me?',
-    
+    'Wine & Cheese is Wednesday',
+    'Brad and I are married',
+    'I dont remember. I just know Brad and I made out.',
+    'I'm old,
+    'Kristeeeeeeeeeeeeeeeeeeeeeeeeeeen',
+    '*makes cat noise*',
+    'It was Dans fault he fell out of the tree',
+    'Was I not drunk?',
+    'lulz good luck',
+    'GAAAAAAAAAAAYYYYYYYYYYYYYYY',
+    'thats too hetero',
+    'I dont care',
+    'booooo',
+    '*insert high-pitched female scream*',
+    'Remember the eKlue of Adorable Animals?',
+    'goatsie',
+    'Im sooooooooo old',
+    'I WILL BREAK YOU!',
+    'ughhhh',
+    'Ewww beer',
+    'Not gay enough',
+    'wine',
+    'Do better',
+    'Dan I will kick you out my my room!',
+    'Its like the movie Teeth',
+    'Penis',
+    'mmmmm alcohol'
   ];  
   return responseArray[Math.floor(Math.random()*responseArray.length)];
 }
