@@ -74,6 +74,7 @@ function generateResponse() {
     'uhhhhh',
     'Sanders definitely still has a chance',
     'my girlfriend Kiely goes to Cal',
+    
   ];  
   return responseArray[Math.floor(Math.random()*responseArray.length)];
 }
