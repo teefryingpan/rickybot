@@ -82,7 +82,8 @@ function generateResponse() {
     'Dan I will kick you out my my room!',
     'Its like the movie Teeth',
     'Penis',
-    'mmmmm alcohol'
+    'mmmmm alcohol',
+    
   ];  
   return responseArray[Math.floor(Math.random()*responseArray.length)];
 }
