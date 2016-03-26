@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /doxbot/;
+      botRegex = /[Dd]oxbot/;
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
@@ -82,8 +82,7 @@ function generateResponse() {
     'ITS YOUR BOI',
     'you guys are brutal af',
     'OPEN SHAK RN',
-    '~dabs~',
-    '~dabs~'
+    'AYBEEE'
   ];  
   return responseArray[Math.floor(Math.random()*responseArray.length)];
 }
